@@ -1,23 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Nastya\\source\\repos\\DSP\\DSP\\DSP.csproj": {}
+    "D:\\repo\\COMPUTER_GRAPHICS_PROJECT-main\\DSP\\DSP.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Nastya\\source\\repos\\DSP\\DSP\\DSP.csproj": {
+    "D:\\repo\\COMPUTER_GRAPHICS_PROJECT-main\\DSP\\DSP.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Nastya\\source\\repos\\DSP\\DSP\\DSP.csproj",
+        "projectUniqueName": "D:\\repo\\COMPUTER_GRAPHICS_PROJECT-main\\DSP\\DSP.csproj",
         "projectName": "DSP",
-        "projectPath": "C:\\Users\\Nastya\\source\\repos\\DSP\\DSP\\DSP.csproj",
-        "packagesPath": "C:\\Users\\Nastya\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Nastya\\source\\repos\\DSP\\DSP\\obj\\",
+        "projectPath": "D:\\repo\\COMPUTER_GRAPHICS_PROJECT-main\\DSP\\DSP.csproj",
+        "packagesPath": "C:\\Users\\kozik\\.nuget\\packages\\",
+        "outputPath": "D:\\repo\\COMPUTER_GRAPHICS_PROJECT-main\\DSP\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Microsoft\\Xamarin\\NuGet\\"
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\Nastya\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\kozik\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
@@ -61,7 +62,7 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.103\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     }
