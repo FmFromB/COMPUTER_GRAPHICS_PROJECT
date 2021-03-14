@@ -23,10 +23,13 @@
                 <MenuItem Header="Анализ" ></MenuItem>
                 <MenuItem Header="Настройки" ></MenuItem>
                 <MenuItem Header="Справка" ></MenuItem>
+                <MenuItem Header="Инструменты" >
+                    <MenuItem Header="Информация о сигнале" Click="signal_information" />
+                </MenuItem>
             </Menu>
         </Grid>
         <Grid Grid.Row="1" Background="#666666" Margin="3, 0">
-            
+            <TextBlock x:Name="text"/>
         </Grid>
     </Grid>
 </Window>

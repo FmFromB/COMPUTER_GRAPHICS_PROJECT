@@ -14,18 +14,43 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
-
+using OxyPlot;
+using System.Globalization;
 
 namespace DSP
 {
-    /// <summary>
-    /// Interaction logic for MainWindow.xaml
-    /// </summary>
     public partial class ChanelsPage : Window
     {
+        public static string path = "D://testData.txt";
+        public DataPoint[] TestPoints { get; }
+            = DataLoader.loadData(path)
+               .Select(x => new DataPoint(x.Rx, x.Rz))
+               .ToArray();
         public ChanelsPage()
         {
             InitializeComponent();
+            this.DataContext = this;
         }
+    }
+
+    public class DataLoader
+    {
+        public static IEnumerable<Data> loadData(string path)
+        {
+            return
+                File.ReadLines(path)
+                .Select(x => x.Split(new[] { ';' }))
+                .Select(x => new Data
+                {
+                    Rx = double.Parse(x[1], CultureInfo.InvariantCulture),
+                    Rz = double.Parse(x[0], CultureInfo.InvariantCulture)
+                });
+        }
+    }
+
+    public class Data
+    {
+        public double Rx { get; set; }
+        public double Rz { get; set; }
     }
 }
