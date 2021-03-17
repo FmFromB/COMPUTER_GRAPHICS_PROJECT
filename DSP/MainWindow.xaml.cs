@@ -15,7 +15,9 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 using LiveCharts;
-
+using System.Collections;
+using System.Globalization;
+using System.Text.RegularExpressions;
 
 namespace DSP
 {
@@ -30,6 +32,7 @@ namespace DSP
         public string start_date;
         public string start_time;
         public string channels_names;
+        public string aaaaa;
 
 
         public MainWindow()
@@ -43,36 +46,83 @@ namespace DSP
             openFileDialog.Filter = "Текстовый файл (*.txt)|*.txt|Звуковой файл (*.wav)|*.wav|Dat-файл (*.dat)|*.dat";
             if (openFileDialog.ShowDialog() == true)
             {
-                string[] data = File.ReadAllText(openFileDialog.FileName).Split('\n');
+                System.Threading.Thread.CurrentThread.CurrentCulture = new System.Globalization.CultureInfo("en-US");
+                string[] data = File.ReadAllLines(openFileDialog.FileName);
+
                 ChannelAnalyzer analyzer = new ChannelAnalyzer();
                 analyzer.Show();
-                const int MaxLength = 6;
-                double[] numbers = new double[1215];
+                
                 for (int i = 12; i < 1215; i++)
                 {
-                    if (data[i].Length > MaxLength)
-                    {
-                        data[i] = data[i].Substring(0, MaxLength);
-                        numbers[i] = Convert.ToDouble(data[i]);
-                        analyzer.Values.Add(numbers[i]);
+                    string inputString = data[i];
+                    string[] results = inputString.Split(new char[] { ' ' }, StringSplitOptions.RemoveEmptyEntries);
+                    List<double> d = new List<double>();
+                    d.AddRange(results.Select(x => Convert.ToDouble(x)));
+                    double[] values = d.ToArray();
+                    analyzer.Values.Add(values[0]);
 
-                    };
+                }
+                for (int i = 12; i < 1215; i++)
+                {
+                    string inputString = data[i];
+                    string[] results = inputString.Split(new char[] { ' ' }, StringSplitOptions.RemoveEmptyEntries);
+                    List<double> d = new List<double>();
+                    d.AddRange(results.Select(x => Convert.ToDouble(x)));
+                    double[] values = d.ToArray();
+                    analyzer.Values2.Add(values[1]);
 
+                }
+                for (int i = 12; i < 1215; i++)
+                {
+                    string inputString = data[i];
+                    string[] results = inputString.Split(new char[] { ' ' }, StringSplitOptions.RemoveEmptyEntries);
+                    List<double> d = new List<double>();
+                    d.AddRange(results.Select(x => Convert.ToDouble(x)));
+                    double[] values = d.ToArray();
+                    analyzer.Values3.Add(values[2]);
+                }
+                for (int i = 12; i < 1215; i++)
+                {
+                    string inputString = data[i];
+                    string[] results = inputString.Split(new char[] { ' ' }, StringSplitOptions.RemoveEmptyEntries);
+                    List<double> d = new List<double>();
+                    d.AddRange(results.Select(x => Convert.ToDouble(x)));
+                    double[] values = d.ToArray();
+                    analyzer.Values4.Add(values[3]);
+                }
+                for (int i = 12; i < 1215; i++)
+                {
+                    string inputString = data[i];
+                    string[] results = inputString.Split(new char[] { ' ' }, StringSplitOptions.RemoveEmptyEntries);
+                    List<double> d = new List<double>();
+                    d.AddRange(results.Select(x => Convert.ToDouble(x)));
+                    double[] values = d.ToArray();
+                    analyzer.Values5.Add(values[4]);
+
+                }
+                for (int i = 12; i < 1215; i++)
+                {
+                    string inputString = data[i];
+                    string[] results = inputString.Split(new char[] { ' ' }, StringSplitOptions.RemoveEmptyEntries);
+                    List<double> d = new List<double>();
+                    d.AddRange(results.Select(x => Convert.ToDouble(x)));
+                    double[] values = d.ToArray();
+                    analyzer.Values6.Add(values[5]);
 
                 }
 
 
-                chanel_num = data[1];
                 samples_num = data[3];
                 sampling_rate = data[5];
                 start_date = data[7];
                 start_time = data[9];
-                channels_names = data[11];
-                
-                text.Text = chanel_num + samples_num + sampling_rate + start_date + start_time + channels_names;
+                for (int i = 12; i < 1215; i++)
+                {
+                   
 
+                    //double[] result = data3[i].Split(new[] { " " }, StringSplitOptions.RemoveEmptyEntries).Select(x => double.Parse(x)).ToArray();
+                }
                 
-
             }
 
         }
