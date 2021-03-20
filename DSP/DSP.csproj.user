@@ -7,18 +7,18 @@
     </ApplicationDefinition>
   </ItemGroup>
   <ItemGroup>
-    <Compile Update="Signal_information.xaml.cs">
+    <Compile Update="ChannelAnalyzer.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <Page Update="ChanelsPage.xaml">
+    <Page Update="Signal_information.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="ChannelAnalyzer.xaml">
       <SubType>Designer</SubType>
     </Page>
     <Page Update="MainWindow.xaml">
-      <SubType>Designer</SubType>
-    </Page>
-    <Page Update="Signal_information.xaml">
       <SubType>Designer</SubType>
     </Page>
   </ItemGroup>
