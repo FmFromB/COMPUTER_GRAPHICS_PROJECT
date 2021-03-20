@@ -12,7 +12,7 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <Page Update="ChanelsPage.xaml">
+    <Page Update="Signal_information.xaml">
       <SubType>Designer</SubType>
     </Page>
     <Page Update="ChannelAnalyzer.xaml">

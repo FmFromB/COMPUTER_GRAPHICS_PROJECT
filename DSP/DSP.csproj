@@ -13,7 +13,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Page Update="ChanelsPage.xaml">
+    <Page Update="Signal_information.xaml">
       <XamlRuntime>$(DefaultXamlRuntime)</XamlRuntime>
       <SubType>Designer</SubType>
     </Page>
