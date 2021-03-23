@@ -24,6 +24,8 @@ namespace DSP
     /// <summary>
     /// Interaction logic for MainWindow.xaml
     /// </summary>
+    /// 
+
     public partial class MainWindow : Window
     {
         public int channel_num;
@@ -35,12 +37,10 @@ namespace DSP
         public string[] date_channel;
         string[] data_all;
 
-
         public MainWindow()
         {
             InitializeComponent();
         }
-
         private void loading_file(object sender, RoutedEventArgs e)
         {
             OpenFileDialog openFileDialog = new OpenFileDialog();
@@ -61,7 +61,6 @@ namespace DSP
                 channels_names = data_all[11];
                 string[] date_channel = new string[samples_num];
                 Array.Copy(data_all, 12, date_channel, 0, samples_num);
-
                 ChannelAnalyzer analyzer = new ChannelAnalyzer(channel_num, samples_num, date_channel, channels_names);
                 analyzer.Show();
             }

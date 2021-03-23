@@ -1,26 +1,26 @@
 {
   "format": 1,
   "restore": {
-    "D:\\repo\\COMPUTER_GRAPHICS_PROJECT-main\\DSP\\DSP.csproj": {}
+    "D:\\repo\\КГ\\Новая папка\\COMPUTER_GRAPHICS_PROJECT-main\\DSP\\DSP.csproj": {}
   },
   "projects": {
-    "D:\\repo\\COMPUTER_GRAPHICS_PROJECT-main\\DSP\\DSP.csproj": {
+    "D:\\repo\\КГ\\Новая папка\\COMPUTER_GRAPHICS_PROJECT-main\\DSP\\DSP.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\repo\\COMPUTER_GRAPHICS_PROJECT-main\\DSP\\DSP.csproj",
+        "projectUniqueName": "D:\\repo\\КГ\\Новая папка\\COMPUTER_GRAPHICS_PROJECT-main\\DSP\\DSP.csproj",
         "projectName": "DSP",
-        "projectPath": "D:\\repo\\COMPUTER_GRAPHICS_PROJECT-main\\DSP\\DSP.csproj",
+        "projectPath": "D:\\repo\\КГ\\Новая папка\\COMPUTER_GRAPHICS_PROJECT-main\\DSP\\DSP.csproj",
         "packagesPath": "C:\\Users\\kozik\\.nuget\\packages\\",
-        "outputPath": "D:\\repo\\COMPUTER_GRAPHICS_PROJECT-main\\DSP\\obj\\",
+        "outputPath": "D:\\repo\\КГ\\Новая папка\\COMPUTER_GRAPHICS_PROJECT-main\\DSP\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
           "C:\\Users\\kozik\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
@@ -44,6 +44,20 @@
       "frameworks": {
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "LiveCharts.Wpf": {
+              "target": "Package",
+              "version": "[0.9.7, )"
+            },
+            "OxyPlot.Core": {
+              "target": "Package",
+              "version": "[2.0.0, )"
+            },
+            "OxyPlot.Wpf": {
+              "target": "Package",
+              "version": "[2.0.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -62,7 +76,7 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
         }
       }
     }

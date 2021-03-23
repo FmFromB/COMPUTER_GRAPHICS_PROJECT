@@ -36,3 +36,55 @@ D:\repo\COMPUTER_GRAPHICS_PROJECT-main\DSP\obj\Debug\netcoreapp3.1\DSP.csproj.Co
 D:\repo\COMPUTER_GRAPHICS_PROJECT-main\DSP\obj\Debug\netcoreapp3.1\DSP.dll
 D:\repo\COMPUTER_GRAPHICS_PROJECT-main\DSP\obj\Debug\netcoreapp3.1\DSP.pdb
 D:\repo\COMPUTER_GRAPHICS_PROJECT-main\DSP\obj\Debug\netcoreapp3.1\DSP.genruntimeconfig.cache
+C:\Users\Nastya\Desktop\COMPUTER_GRAPHICS_PROJECT-main\DSP\bin\Debug\netcoreapp3.1\DSP.exe
+C:\Users\Nastya\Desktop\COMPUTER_GRAPHICS_PROJECT-main\DSP\bin\Debug\netcoreapp3.1\DSP.deps.json
+C:\Users\Nastya\Desktop\COMPUTER_GRAPHICS_PROJECT-main\DSP\bin\Debug\netcoreapp3.1\DSP.runtimeconfig.json
+C:\Users\Nastya\Desktop\COMPUTER_GRAPHICS_PROJECT-main\DSP\bin\Debug\netcoreapp3.1\DSP.runtimeconfig.dev.json
+C:\Users\Nastya\Desktop\COMPUTER_GRAPHICS_PROJECT-main\DSP\bin\Debug\netcoreapp3.1\DSP.dll
+C:\Users\Nastya\Desktop\COMPUTER_GRAPHICS_PROJECT-main\DSP\bin\Debug\netcoreapp3.1\DSP.pdb
+C:\Users\Nastya\Desktop\COMPUTER_GRAPHICS_PROJECT-main\DSP\obj\Debug\netcoreapp3.1\DSP.csprojAssemblyReference.cache
+C:\Users\Nastya\Desktop\COMPUTER_GRAPHICS_PROJECT-main\DSP\obj\Debug\netcoreapp3.1\MainWindow.g.cs
+C:\Users\Nastya\Desktop\COMPUTER_GRAPHICS_PROJECT-main\DSP\obj\Debug\netcoreapp3.1\App.g.cs
+C:\Users\Nastya\Desktop\COMPUTER_GRAPHICS_PROJECT-main\DSP\obj\Debug\netcoreapp3.1\DSP_MarkupCompile.cache
+C:\Users\Nastya\Desktop\COMPUTER_GRAPHICS_PROJECT-main\DSP\obj\Debug\netcoreapp3.1\DSP_MarkupCompile.lref
+C:\Users\Nastya\Desktop\COMPUTER_GRAPHICS_PROJECT-main\DSP\obj\Debug\netcoreapp3.1\MainWindow.baml
+C:\Users\Nastya\Desktop\COMPUTER_GRAPHICS_PROJECT-main\DSP\obj\Debug\netcoreapp3.1\DSP.g.resources
+C:\Users\Nastya\Desktop\COMPUTER_GRAPHICS_PROJECT-main\DSP\obj\Debug\netcoreapp3.1\DSP.AssemblyInfoInputs.cache
+C:\Users\Nastya\Desktop\COMPUTER_GRAPHICS_PROJECT-main\DSP\obj\Debug\netcoreapp3.1\DSP.AssemblyInfo.cs
+C:\Users\Nastya\Desktop\COMPUTER_GRAPHICS_PROJECT-main\DSP\obj\Debug\netcoreapp3.1\DSP.csproj.CoreCompileInputs.cache
+C:\Users\Nastya\Desktop\COMPUTER_GRAPHICS_PROJECT-main\DSP\obj\Debug\netcoreapp3.1\DSP.dll
+C:\Users\Nastya\Desktop\COMPUTER_GRAPHICS_PROJECT-main\DSP\obj\Debug\netcoreapp3.1\DSP.pdb
+C:\Users\Nastya\Desktop\COMPUTER_GRAPHICS_PROJECT-main\DSP\obj\Debug\netcoreapp3.1\DSP.genruntimeconfig.cache
+C:\Users\Nastya\Desktop\COMPUTER_GRAPHICS_PROJECT-main\DSP\obj\Debug\netcoreapp3.1\ChanelsPage.g.cs
+C:\Users\Nastya\Desktop\COMPUTER_GRAPHICS_PROJECT-main\DSP\obj\Debug\netcoreapp3.1\ChanelsPage.baml
+D:\repo\КГ\Новая папка\COMPUTER_GRAPHICS_PROJECT-main\DSP\bin\Debug\netcoreapp3.1\DSP.exe
+D:\repo\КГ\Новая папка\COMPUTER_GRAPHICS_PROJECT-main\DSP\bin\Debug\netcoreapp3.1\DSP.deps.json
+D:\repo\КГ\Новая папка\COMPUTER_GRAPHICS_PROJECT-main\DSP\bin\Debug\netcoreapp3.1\DSP.runtimeconfig.json
+D:\repo\КГ\Новая папка\COMPUTER_GRAPHICS_PROJECT-main\DSP\bin\Debug\netcoreapp3.1\DSP.runtimeconfig.dev.json
+D:\repo\КГ\Новая папка\COMPUTER_GRAPHICS_PROJECT-main\DSP\bin\Debug\netcoreapp3.1\DSP.dll
+D:\repo\КГ\Новая папка\COMPUTER_GRAPHICS_PROJECT-main\DSP\bin\Debug\netcoreapp3.1\DSP.pdb
+D:\repo\КГ\Новая папка\COMPUTER_GRAPHICS_PROJECT-main\DSP\bin\Debug\netcoreapp3.1\LiveCharts.dll
+D:\repo\КГ\Новая папка\COMPUTER_GRAPHICS_PROJECT-main\DSP\bin\Debug\netcoreapp3.1\LiveCharts.Wpf.dll
+D:\repo\КГ\Новая папка\COMPUTER_GRAPHICS_PROJECT-main\DSP\bin\Debug\netcoreapp3.1\OxyPlot.dll
+D:\repo\КГ\Новая папка\COMPUTER_GRAPHICS_PROJECT-main\DSP\bin\Debug\netcoreapp3.1\OxyPlot.Wpf.dll
+D:\repo\КГ\Новая папка\COMPUTER_GRAPHICS_PROJECT-main\DSP\obj\Debug\netcoreapp3.1\DSP.csprojAssemblyReference.cache
+D:\repo\КГ\Новая папка\COMPUTER_GRAPHICS_PROJECT-main\DSP\obj\Debug\netcoreapp3.1\Signal_information.baml
+D:\repo\КГ\Новая папка\COMPUTER_GRAPHICS_PROJECT-main\DSP\obj\Debug\netcoreapp3.1\ChannelAnalyzer.g.cs
+D:\repo\КГ\Новая папка\COMPUTER_GRAPHICS_PROJECT-main\DSP\obj\Debug\netcoreapp3.1\MainWindow.g.cs
+D:\repo\КГ\Новая папка\COMPUTER_GRAPHICS_PROJECT-main\DSP\obj\Debug\netcoreapp3.1\Signal_information.g.cs
+D:\repo\КГ\Новая папка\COMPUTER_GRAPHICS_PROJECT-main\DSP\obj\Debug\netcoreapp3.1\App.g.cs
+D:\repo\КГ\Новая папка\COMPUTER_GRAPHICS_PROJECT-main\DSP\obj\Debug\netcoreapp3.1\DSP_MarkupCompile.cache
+D:\repo\КГ\Новая папка\COMPUTER_GRAPHICS_PROJECT-main\DSP\obj\Debug\netcoreapp3.1\DSP_MarkupCompile.lref
+D:\repo\КГ\Новая папка\COMPUTER_GRAPHICS_PROJECT-main\DSP\obj\Debug\netcoreapp3.1\ChannelAnalyzer.baml
+D:\repo\КГ\Новая папка\COMPUTER_GRAPHICS_PROJECT-main\DSP\obj\Debug\netcoreapp3.1\MainWindow.baml
+D:\repo\КГ\Новая папка\COMPUTER_GRAPHICS_PROJECT-main\DSP\obj\Debug\netcoreapp3.1\DSP.g.resources
+D:\repo\КГ\Новая папка\COMPUTER_GRAPHICS_PROJECT-main\DSP\obj\Debug\netcoreapp3.1\DSP.AssemblyInfoInputs.cache
+D:\repo\КГ\Новая папка\COMPUTER_GRAPHICS_PROJECT-main\DSP\obj\Debug\netcoreapp3.1\DSP.AssemblyInfo.cs
+D:\repo\КГ\Новая папка\COMPUTER_GRAPHICS_PROJECT-main\DSP\obj\Debug\netcoreapp3.1\DSP.csproj.CoreCompileInputs.cache
+D:\repo\КГ\Новая папка\COMPUTER_GRAPHICS_PROJECT-main\DSP\obj\Debug\netcoreapp3.1\DSP.csproj.CopyComplete
+D:\repo\КГ\Новая папка\COMPUTER_GRAPHICS_PROJECT-main\DSP\obj\Debug\netcoreapp3.1\DSP.dll
+D:\repo\КГ\Новая папка\COMPUTER_GRAPHICS_PROJECT-main\DSP\obj\Debug\netcoreapp3.1\DSP.pdb
+D:\repo\КГ\Новая папка\COMPUTER_GRAPHICS_PROJECT-main\DSP\obj\Debug\netcoreapp3.1\DSP.genruntimeconfig.cache
+D:\repo\КГ\Новая папка\COMPUTER_GRAPHICS_PROJECT-main\DSP\obj\Debug\netcoreapp3.1\GeneratedInternalTypeHelper.g.cs
+D:\repo\КГ\Новая папка\COMPUTER_GRAPHICS_PROJECT-main\DSP\obj\Debug\netcoreapp3.1\Analyzer.g.cs
+D:\repo\КГ\Новая папка\COMPUTER_GRAPHICS_PROJECT-main\DSP\obj\Debug\netcoreapp3.1\Analyzer.baml
