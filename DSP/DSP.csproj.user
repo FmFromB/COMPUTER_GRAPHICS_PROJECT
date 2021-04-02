@@ -13,9 +13,15 @@
     <Compile Update="ChannelAnalyzer.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Update="OSC.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <Page Update="Analyzer.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="OSC.xaml">
       <SubType>Designer</SubType>
     </Page>
     <Page Update="Signal_information.xaml">

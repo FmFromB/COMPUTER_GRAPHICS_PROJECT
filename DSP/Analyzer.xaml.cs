@@ -20,7 +20,6 @@ namespace DSP
     /// </summary>
     public partial class Analyzer : UserControl
     {
-        public static System.Text.Encoding UTF8 { get; }
         public int a;
         public Analyzer(int channel_num, int samples_num, string[] date_channel, string channels_names)
         {

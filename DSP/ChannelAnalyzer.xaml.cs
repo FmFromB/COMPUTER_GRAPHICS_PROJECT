@@ -20,15 +20,15 @@ namespace DSP
     /// </summary>
     public partial class ChannelAnalyzer : Window
     {
-        public static System.Text.Encoding UTF8 { get; }
         public int a;
         public ChannelAnalyzer(int channel_num, int samples_num, string[] date_channel, string channels_names)
         {
             InitializeComponent();
-            //Ахуительное решение 10 
+
+            //Ахуительное решение 10 из 10
             if (samples_num > 400000)
             {
-                a = samples_num / 500;
+                a = samples_num / 300;
             }
             if (samples_num > 212000)
             {
@@ -52,7 +52,7 @@ namespace DSP
             }
 
             string[] date_channels = new string[channel_num + 1];
-            for (int i = 0; i < samples_num; i+=a)
+            for (int i = 0; i < samples_num; i += a)
             {
                 string[] tmp = date_channel[i].Split(' ');
                 for (int j = 0; j < channel_num; j++)
@@ -63,7 +63,8 @@ namespace DSP
 
             string[] names = channels_names.Split(';');
 
-            for (int i = 0; i < channel_num; i++) {
+            for (int i = 0; i < channel_num; i++)
+            {
                 string tm = date_channels[i];
                 string[] results = tm.Split(new char[] { ',' }, StringSplitOptions.RemoveEmptyEntries);
                 List<double> channel_tmp = new List<double>();
@@ -102,9 +103,33 @@ namespace DSP
                 };
                 //ch.ChartAreas[0].AxisY.MajorGrid.Enabled = false;
                 RowDefinition rowDef = new RowDefinition();
+                TextBlock text = new TextBlock();
+                ContextMenu menu = new ContextMenu();
+                MenuItem item = new MenuItem();
+                text.ContextMenu = menu;
+                item.Header = "осцилограмма";
+                text.ContextMenu.Items.Add(item);
                 TestGrid.RowDefinitions.Add(rowDef);
+                item.Click += Open_osc;
                 Grid.SetRow(ch, i);
+
                 TestGrid.Children.Add(ch);
+
+                Grid.SetRow(text, i);
+
+                TestGrid.Children.Add(text);
+            }
+        }
+        void Open_osc(object sender, RoutedEventArgs e)
+        {
+            {
+                Window window = new Window
+                {
+                    Title = "My User Control Dialog",
+                    Content = new OSC()
+                };
+
+                window.ShowDialog();
             }
         }
     }

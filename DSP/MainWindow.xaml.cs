@@ -49,7 +49,7 @@ namespace DSP
             {
 
                 System.Threading.Thread.CurrentThread.CurrentCulture = new CultureInfo("en-US");
-                data_all = File.ReadAllLines(openFileDialog.FileName);
+                data_all = File.ReadAllLines(openFileDialog.FileName, Encoding.UTF8);
 
                 // Важные переменные
                 channel_num = Convert.ToInt32(data_all[1]);

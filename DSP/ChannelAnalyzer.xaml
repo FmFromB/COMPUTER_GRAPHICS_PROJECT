@@ -9,8 +9,7 @@
         Background="#fff">
     <Grid x:Name="TestGrid">
         <Grid.RowDefinitions>
-            
+
         </Grid.RowDefinitions>
     </Grid>
-    
 </Window>
