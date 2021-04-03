@@ -5,11 +5,77 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:DSP" xmlns:lvc="clr-namespace:LiveCharts.Wpf;assembly=LiveCharts.Wpf"
         mc:Ignorable="d"
-        Title="ChannelAnalyzer"  Width="220"
+        Title="ChannelAnalyzer" Height="900" Width="1600"
         Background="#fff">
-    <Grid x:Name="TestGrid">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width=".7*"></ColumnDefinition>
+            <ColumnDefinition Width=".3*"></ColumnDefinition>
+        </Grid.ColumnDefinitions>
         <Grid.RowDefinitions>
-
+            <RowDefinition Height="Auto"></RowDefinition>
+            <RowDefinition Height="*"></RowDefinition>
         </Grid.RowDefinitions>
+        <Border Grid.ColumnSpan="2"></Border>
+        <lvc:CartesianChart Name="Chart" Grid.Row="1" Grid.Column="0" Margin="15,15,631,584">
+            <lvc:CartesianChart.Series>
+                <lvc:LineSeries Values="{Binding Values}" LineSmoothness="1" StrokeThickness="2" 
+                                DataLabels="False" FontSize="20" Foreground="#6B303030"
+                                Stroke="Black" Fill="White" PointGeometrySize="0"/>
+            </lvc:CartesianChart.Series>
+            <lvc:CartesianChart.AxisX>
+                <lvc:Axis IsEnabled="False" ShowLabels="False"/>
+            </lvc:CartesianChart.AxisX>
+        </lvc:CartesianChart>
+        <lvc:CartesianChart Name="Chart2" Grid.Row="1" Margin="552,15,72,584">
+            <lvc:CartesianChart.Series>
+                <lvc:LineSeries Values="{Binding Values2}" LineSmoothness="1" StrokeThickness="2" 
+                                DataLabels="False" FontSize="20" Foreground="#6B303030"
+                                Stroke="Black" Fill="White" PointGeometrySize="0"/>
+            </lvc:CartesianChart.Series>
+            <lvc:CartesianChart.AxisX>
+                <lvc:Axis IsEnabled="False" ShowLabels="False"/>
+            </lvc:CartesianChart.AxisX>
+        </lvc:CartesianChart>
+        <lvc:CartesianChart Name="Chart3" Grid.Row="1" Margin="1078,15,26,584" Grid.ColumnSpan="2">
+            <lvc:CartesianChart.Series>
+                <lvc:LineSeries Values="{Binding Values3}" LineSmoothness="1" StrokeThickness="2" 
+                                DataLabels="False" FontSize="20" Foreground="#6B303030"
+                                Stroke="Black" Fill="White" PointGeometrySize="0"/>
+            </lvc:CartesianChart.Series>
+            <lvc:CartesianChart.AxisX>
+                <lvc:Axis IsEnabled="False" ShowLabels="False"/>
+            </lvc:CartesianChart.AxisX>
+        </lvc:CartesianChart>
+        <lvc:CartesianChart Name="Chart4" Grid.Row="1" Margin="15,358,609,240">
+            <lvc:CartesianChart.Series>
+                <lvc:LineSeries Values="{Binding Values4}" LineSmoothness="1" StrokeThickness="2" 
+                                DataLabels="False" FontSize="20" Foreground="#6B303030"
+                                Stroke="Black" Fill="White" PointGeometrySize="0"/>
+            </lvc:CartesianChart.Series>
+            <lvc:CartesianChart.AxisX>
+                <lvc:Axis IsEnabled="False" ShowLabels="False"/>
+            </lvc:CartesianChart.AxisX>
+        </lvc:CartesianChart>
+        <lvc:CartesianChart Name="Chart5" Grid.Row="1" Margin="560,358,64,240">
+            <lvc:CartesianChart.Series>
+                <lvc:LineSeries Values="{Binding Values5}" LineSmoothness="1" StrokeThickness="2" 
+                                DataLabels="False" FontSize="20" Foreground="#6B303030"
+                                Stroke="Black" Fill="White" PointGeometrySize="0"/>
+            </lvc:CartesianChart.Series>
+            <lvc:CartesianChart.AxisX>
+                <lvc:Axis IsEnabled="False" ShowLabels="False"/>
+            </lvc:CartesianChart.AxisX>
+        </lvc:CartesianChart>
+        <lvc:CartesianChart Name="Chart6" Grid.Row="1" Margin="1078,358,26,240" Grid.ColumnSpan="2">
+            <lvc:CartesianChart.Series>
+                <lvc:LineSeries Values="{Binding Values6}" LineSmoothness="1" StrokeThickness="2" 
+                                DataLabels="False" FontSize="20" Foreground="#6B303030"
+                                Stroke="Black" Fill="White" PointGeometrySize="0"/>
+            </lvc:CartesianChart.Series>
+            <lvc:CartesianChart.AxisX>
+                <lvc:Axis IsEnabled="False" ShowLabels="False"/>
+            </lvc:CartesianChart.AxisX>
+        </lvc:CartesianChart>
     </Grid>
 </Window>

@@ -1,39 +1,56 @@
 ﻿<Window x:Class="DSP.Signal_information"
-    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
-    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-    Title="Signal_information" MinHeight="250" Width="400">
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:DSP"
+        mc:Ignorable="d"
+        Title="Signal_information" Height="250" MaxWidth="330">
     <Grid>
         <Grid.ColumnDefinitions>
-            <ColumnDefinition/>
+            <ColumnDefinition Width="1.6*"/>
             <ColumnDefinition/>
         </Grid.ColumnDefinitions>
-        <Grid.RowDefinitions>
-            <RowDefinition/>
-            <RowDefinition/>
-            <RowDefinition/>
-            <RowDefinition/>
-            <RowDefinition/>
-            <RowDefinition/>
-            <RowDefinition/>
-            <RowDefinition/>
-        </Grid.RowDefinitions>
-        <TextBlock Grid.Row="0" Grid.Column="0" Text="Общее число каналов:"/>
-        <TextBlock Grid.Row="0" Grid.Column="2" Name="chanels_num"/>
-        <TextBlock Grid.Row="1" Grid.Column="0" Text="Общее количество отсчетов:"/>
-        <TextBlock Grid.Row="1" Grid.Column="2" Name="samples_num"/>
-        <TextBlock Grid.Row="2" Grid.Column="0" Text="Частота дискретизации:"/>
-        <TextBlock Grid.Row="2" Grid.Column="2" Name="sampling_rate"/>
-        <TextBlock Grid.Row="3" Grid.Column="0" Text="Дата и время начала записи:"/>
-        <TextBlock Grid.Row="3" Grid.Column="2" Name="start"/>
-        <TextBlock Grid.Row="4" Grid.Column="0" Text="Дата и время окончания записи:"/>
-        <TextBlock Grid.Row="4" Grid.Column="2" Name="end"/>
-        <TextBlock Grid.Row="5" Grid.Column="0" Text="Длительность:"/>
-        <TextBlock Grid.Row="5" Grid.Column="2" Name="duration"/>
-        <TextBlock Grid.Row="6" Grid.Column="0" Text="Информация о каналах:"/>
-        <TextBlock Grid.Row="7" Grid.Column="0" Text="Имя"/>
-        <TextBlock Grid.Row="7" Grid.Column="2" Name="name_channel"/>
-        <TextBlock Grid.Row="7" Grid.Column="1" Text="Источник"/>
-        <TextBlock Grid.Row="7" Grid.Column="2" Name="source"/>
+        <Grid Grid.Column="0">
+            <Grid.RowDefinitions>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+            </Grid.RowDefinitions>
+            <TextBlock Text="Общее число каналов:" Grid.Row="0"/>
+            <TextBlock Text="Общее количество отсчетов:" Grid.Row="1"/>
+            <TextBlock Text="Частота дискретизации:" Grid.Row="2"/>
+            <TextBlock Text="Дата и время начала записи:" Grid.Row="3"/>
+            <TextBlock Text="Дата и время окончания записи:" Grid.Row="4"/>
+            <TextBlock Text="Длительность:" Grid.Row="5"/>
+            <TextBlock Text="Информация о каналах" Grid.Row="6"/>
+            <TextBlock Text="Имя" Grid.Row="7"/>
+        </Grid>
+        <Grid Grid.Column="1">
+            <Grid.RowDefinitions>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+            </Grid.RowDefinitions>
+            <TextBlock x:Name="chanels_num" Grid.Row="0"/>
+            <TextBlock x:Name="samples_num" Grid.Row="1"/>
+            <TextBlock x:Name="sampling_rate" Grid.Row="2"/>
+            <TextBlock x:Name="start" Grid.Row="3"/>
+            <TextBlock x:Name="end" Grid.Row="4"/>
+            <TextBlock x:Name="duration" Grid.Row="5"/>
+            <TextBlock Text="Источник" Grid.Row="7"/>
+        </Grid>
     </Grid>
 </Window>
-   

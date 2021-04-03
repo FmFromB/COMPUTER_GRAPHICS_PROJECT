@@ -1,11 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "NjM6JzpwtiiyBBLfrYdILd29YaZZL8YKFdKQaPEG8vT6zMSnysz6r2ojXwC+t2whpk2JNqr42CnjdjhLh/8bDA==",
+  "dgSpecHash": "nYwFd+5/uVOS3RZ3CvWp6SuTDe2waw6+gx6pYLsjrtsFqVieXMW9bP/RZ3EohrA0UJEyeicTOoh9tfqVD7hGQA==",
   "success": true,
-  "projectFilePath": "D:\\repo\\КГ\\Новая папка\\COMPUTER_GRAPHICS_PROJECT-main\\DSP\\DSP.csproj",
+  "projectFilePath": "D:\\repo\\КГ\\COMPUTER_GRAPHICS_PROJECT-main\\DSP\\DSP.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\kozik\\.nuget\\packages\\livecharts\\0.9.7\\livecharts.0.9.7.nupkg.sha512",
-    "C:\\Users\\kozik\\.nuget\\packages\\livecharts.geared\\1.2.9\\livecharts.geared.1.2.9.nupkg.sha512",
     "C:\\Users\\kozik\\.nuget\\packages\\livecharts.wpf\\0.9.7\\livecharts.wpf.0.9.7.nupkg.sha512",
     "C:\\Users\\kozik\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\microsoft.netcore.targets\\1.1.0\\microsoft.netcore.targets.1.1.0.nupkg.sha512",
@@ -90,16 +89,6 @@
       "warningLevel": 1,
       "message": "Пакет \"LiveCharts 0.9.7\" был восстановлен с помощью \".NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8\", а не целевой платформы проекта \".NETCoreApp,Version=v3.1\". Этот пакет может быть не полностью совместим с вашим проектом.",
       "libraryId": "LiveCharts",
-      "targetGraphs": [
-        ".NETCoreApp,Version=v3.1"
-      ]
-    },
-    {
-      "code": "NU1701",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Пакет \"LiveCharts.Geared 1.2.9\" был восстановлен с помощью \".NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8\", а не целевой платформы проекта \".NETCoreApp,Version=v3.1\". Этот пакет может быть не полностью совместим с вашим проектом.",
-      "libraryId": "LiveCharts.Geared",
       "targetGraphs": [
         ".NETCoreApp,Version=v3.1"
       ]
