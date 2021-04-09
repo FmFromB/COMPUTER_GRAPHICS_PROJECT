@@ -8,7 +8,7 @@
              xmlns:lvc="clr-namespace:LiveCharts.Wpf;assembly=LiveCharts.Wpf"
              xmlns:geared="clr-namespace:LiveCharts.Geared;assembly=LiveCharts.Geared"
              xmlns:s="clr-namespace:DSP"
-             
+             Name="oscillogram"
              mc:Ignorable="d" 
              d:DesignHeight="450" d:DesignWidth="800">
     <UserControl.DataContext>
@@ -37,9 +37,8 @@
                 </Style>
             </lvc:CartesianChart.Resources>
             <lvc:CartesianChart.Series>
-                <geared:GLineSeries StrokeThickness="0" 
+                <geared:GLineSeries StrokeThickness="1" 
                                     Values="{Binding Values}"
-                                    Fill="#2194F1"
                                     AreaLimit="0"
                                     PointGeometry="{x:Null}"/>
             </lvc:CartesianChart.Series>

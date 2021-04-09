@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\repo\\КГ\\COMPUTER_GRAPHICS_PROJECT-main\\DSP\\DSP.csproj": {}
+    "D:\\repo\\КГ\\Ветка 2\\COMPUTER_GRAPHICS_PROJECT-main\\DSP\\DSP.csproj": {}
   },
   "projects": {
-    "D:\\repo\\КГ\\COMPUTER_GRAPHICS_PROJECT-main\\DSP\\DSP.csproj": {
+    "D:\\repo\\КГ\\Ветка 2\\COMPUTER_GRAPHICS_PROJECT-main\\DSP\\DSP.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\repo\\КГ\\COMPUTER_GRAPHICS_PROJECT-main\\DSP\\DSP.csproj",
+        "projectUniqueName": "D:\\repo\\КГ\\Ветка 2\\COMPUTER_GRAPHICS_PROJECT-main\\DSP\\DSP.csproj",
         "projectName": "DSP",
-        "projectPath": "D:\\repo\\КГ\\COMPUTER_GRAPHICS_PROJECT-main\\DSP\\DSP.csproj",
+        "projectPath": "D:\\repo\\КГ\\Ветка 2\\COMPUTER_GRAPHICS_PROJECT-main\\DSP\\DSP.csproj",
         "packagesPath": "C:\\Users\\kozik\\.nuget\\packages\\",
-        "outputPath": "D:\\repo\\КГ\\COMPUTER_GRAPHICS_PROJECT-main\\DSP\\obj\\",
+        "outputPath": "D:\\repo\\КГ\\Ветка 2\\COMPUTER_GRAPHICS_PROJECT-main\\DSP\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -45,6 +45,10 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "dependencies": {
+            "LiveCharts.Geared": {
+              "target": "Package",
+              "version": "[1.2.9, )"
+            },
             "LiveCharts.Wpf": {
               "target": "Package",
               "version": "[0.9.7, )"
